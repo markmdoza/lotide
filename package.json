@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@markmdoza/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "a series of functions based off of Lodash created during the LHL Web Flex Development Boot-camp.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,11 @@
     "type": "git",
     "url": "git+https://github.com/markmdoza/lotide.git"
   },
-  "author": "",
+  "author": {
+    "name" : "Mark Mendoza",
+    "email" : "marklmdoza@gmail.com",
+    "url" : "https://github.com/markmdoza"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/markmdoza/lotide/issues"
