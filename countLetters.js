@@ -1,10 +1,4 @@
-const assertEqual = function (actual, expected) {
-  if (actual === expected) {
-    console.log(`🤩 Assertion Passed: ${actual} === ${expected}`)
-  } else {
-    console.log(`🫠 Assertion Failed: ${actual} !== ${expected}`)
-  }
-};
+// The function should take in a sentence (as a string) and then return a count of each of the letters in that sentence.
 
 const countLetters = function(string){
   const results = {};
@@ -20,6 +14,4 @@ const countLetters = function(string){
   return results;
 }
 
-
-const letterCounts = countLetters('this is a string for lighthouse labs challenge counting letters');
-console.log(letterCounts);
+module.exports = countLetters;

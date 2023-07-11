@@ -1,5 +1,4 @@
-const eqArrays = require('./eqArrays');
-const assertArraysEqual = require('./assertArraysEqual');
+// Middle should take an array and return an array of the middle most elements.
 
 const middle = function (array) {
   if (array.length <= 2) {

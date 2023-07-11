@@ -1,7 +1,7 @@
 // index.js
 const assertArraysEqual = require('./assertArraysEqual');
 const assertEqual = require('./assertEqual');
-const assertObjectsEqual = require('./assertObjectsEqual');
+const assertObjectsEqual = require('./assertObjectsEqual').default;
 const countLetters = require('./countLetters');
 const countOnly = require('./countOnly');
 const eqArrays = require('./eqArrays');
