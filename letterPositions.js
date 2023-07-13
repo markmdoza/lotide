@@ -11,7 +11,7 @@ const letterPositions = function(string) {
     }
 
     if (results[letter]){
-      results[letter].push[i];
+      results[letter].push(i);
     } else {
       results[letter] = [i];
     }
