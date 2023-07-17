@@ -1,6 +1,6 @@
 {
   "name": "@markmdoza/lotide",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a series of functions based off of Lodash created during the LHL Web Flex Development Boot-camp.",
   "main": "index.js",
   "directories": {
